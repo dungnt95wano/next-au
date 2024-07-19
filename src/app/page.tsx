@@ -7,21 +7,11 @@ import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
-import { NextSeo } from 'next-seo';
+
 
 export default function Home() {
   return (
     <>
-      <NextSeo title="Golfhub"
-        description="Powering the Worlds Leading PGA Professionals"
-        canonical="https://www.golfhub.co"
-        openGraph={{
-          url: 'https://www.golfhub.co',
-          title: 'Golfhub',
-          description: 'Powering the Worlds Leading PGA Professionals',
-          site_name: 'Golfhub',
-          images: [{ url: `https://www.golfhub.co/images/hero.jpeg`, width: 1200, height: 630, alt: 'Golfhub' }],
-        }} />
       <Header />
       <main>
         <Hero />
